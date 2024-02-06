@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share your review!</title>
+
+    <link rel="stylesheet" href="./userReviewFormStyle.css">
+</head>
+<body>
+
+    <header>
+        <h1>V's Travel Blog</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../mainSite.html">Locations</a>
+                </li>
+                <li>
+                    <a href="#">Add a location</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="review">
+
+        <input placeholder="Enter location", id="location">
+        <input placeholder="Add location photo", id="photo">
+        <input placeholder="Your review", id="impressions">
+        <input placeholder="Give your preem score", id="grade">
+        <input placeholder="Do you recommend it to visit? Enter Yes/No", id="worthVisiting">
+
+        <button id="button">Add a review</button>
+
+    </div>
+
+    <div id="message"></div>
+    
+    <script type="module" src="./userReviewFormScript.js"></script>
+</body>
+</html>

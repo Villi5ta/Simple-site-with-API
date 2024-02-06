@@ -1,0 +1,65 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  body {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+header
+ {
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+} 
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    
+    
+}
+
+ul li a {
+    color: #ff09b6;
+    text-decoration: none;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+
+}
+
+.review input {
+  padding: 5px;
+  width: 500px;
+  text-align: center;
+  display: flex;
+  align-self: center;
+  margin-bottom: 20px;
+  border: 2px solid #ff09b6;
+}
+
+.review #button, #buttonReg {
+  text-align: center;
+  display: flex;
+  align-self: center;
+  padding: 10px 20px;
+  background-color: #ff09b6;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.review #button:hover, #buttonReg:hover  {
+  background-color: #ff5cce;
+}
